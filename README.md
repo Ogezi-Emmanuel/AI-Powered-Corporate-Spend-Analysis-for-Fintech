@@ -43,13 +43,13 @@ This project tackles both problems by first performing a deep-dive analysis to p
 
 A disproportionate amount of spending is concentrated in "Travel, venue hire and exhibition services." This single category's spending is more than the next four largest categories combined, highlighting a critical need for strong travel policies and better vendor negotiations.
 
-`![Top Spending Categories](./images/top_categories_chart.png)`
+![Top Spending Categories](./images/top_categories_chart.png)
 
 #### Insight 2: Volatile and Seasonal Monthly Spending
 
 The trend chart reveals significant volatility, with spending consistently peaking in January. This predictable seasonality makes manual budgeting difficult. A platform with real-time dashboards could help finance teams manage this volatility and prepare for seasonal cash flow demands.
 
-`![Monthly Spending Trend](./images/monthly_spend_chart.png)`
+![Monthly Spending Trend](./images/monthly_spend_chart.png)
 
 #### Insight 3: Significant Spend in Core Operational Categories
 
