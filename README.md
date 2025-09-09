@@ -2,9 +2,9 @@
 
 ### Project Overview
 
-This project simulates a core product offering of a modern spend management fintech company (like Ramp, Brex, or Moniepoint). It involves a two-part analysis of a corporate credit card transaction dataset to uncover spending patterns and build an intelligent, automated expense categorization tool.
+This project simulates a core product offering of a modern spend management fintech company (like Ramp, Brex, or Moniepoint). It involves a two-part analysis of **real-world corporate credit card transaction data from the UK Government** to uncover spending patterns and build an intelligent, automated expense categorization tool.
 
-The goal is to demonstrate a full-stack data analysis workflow, from raw data processing to deriving actionable business insights and building a value-add AI feature.
+The goal is to demonstrate a full-stack data analysis workflow, from processing raw, multi-source data to deriving actionable business insights and building a value-add AI feature.
 
 -----
 
@@ -37,6 +37,14 @@ This project tackles both problems by first performing a deep-dive analysis to p
 
 -----
 
+### Data Source
+
+The dataset used for this analysis is official corporate card spending data published by the UK Government Cabinet Office. It was sourced directly from the [data.gov.uk](https://data.gov.uk/) portal, demonstrating the ability to work with real-world, primary source data.
+
+  * **Direct Link to Data:** [https://www.data.gov.uk/dataset/2d6c7585-c281-4285-ad35-44db26215c95/procurement-card-spend-over-500]
+
+-----
+
 ### Key Findings & Actionable Insights
 
 #### Insight 1: Extreme Concentration in Travel Spend
@@ -61,7 +69,7 @@ Following travel, there is substantial spending in "Facilities" and "IT & Teleco
 
 A core feature of modern fintech platforms is the ability to intelligently categorize expenses. I built a proof-of-concept for this using a Large Language Model.
 
-By providing the model with a few examples (a technique called few-shot prompting), it can accurately map inconsistent, legacy categories to a clean, standardized list. This automation saves time, reduces human error, and provides cleaner data for analysis.
+By providing the model with a few examples (a technique called few-shot prompting), it can accurately map inconsistent, legacy government categories to a clean, standardized list. This automation saves time, reduces human error, and provides cleaner data for analysis.
 
 **Example Mapping:**
 | Original Government Category | AI-Generated Modern Category |
@@ -77,8 +85,8 @@ By providing the model with a few examples (a technique called few-shot promptin
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/YourUsername/YourRepoName.git
-    cd YourRepoName
+    git clone https://github.com/Ogezi-Emmanuel/AI-Powered-Corporate-Spend-Analysis-for-Fintech.git
+    cd AI-Powered-Corporate-Spend-Analysis-for-Fintech
     ```
 2.  **Set up the environment:**
       * It is recommended to use a virtual environment.
@@ -96,3 +104,7 @@ By providing the model with a few examples (a technique called few-shot promptin
       * Launch Jupyter Notebook and open the `AI-Powered Corporate Spend Analysis.ipynb` file.
 
 -----
+
+### About Me
+
+  * **LinkedIn:** [https://www.linkedin.com/in/emmanuel-ogezi-2501932b6/]
